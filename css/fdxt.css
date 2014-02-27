@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.reveal .slides {
+	min-width: 90%;
+	min-height: 80%;
+}
+
+.reveal .slides>section {
+	min-width: 90%;
+	min-height: 80%;
+}
+
+.reveal .slides>section>section {
+	min-width: 90%;
+	min-height: 80%;
+}
+
+.reveal ul {
+	color: lightblue;
+}
+
+.reveal ul ul {
+	color: #cccccc;
+}
+
+.reveal ul ul ul {
+	color: #dddddd;
+}
+
+.reveal table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.reveal table,.reveal  td,.reveal  th {
+	border: 1px solid white;
+	text-align: center !important;
+}
