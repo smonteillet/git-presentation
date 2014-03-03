@@ -4,6 +4,7 @@
 	    <title>Git</title>
 	    <meta name="description" content="Introduction à Git sous forme de présentation.">
 		<meta name="author" content="Sylvain Monteillet">   
+	    <link rel="stylesheet" href="css/presentation.css">
 	    <link rel="stylesheet" href="css/reveal.min.css">
 	    <link rel="stylesheet" href="css/theme/default.css" id="theme"> 
 	    <!--Add support for earlier versions of Internet Explorer -->
@@ -16,16 +17,91 @@
 		<div class="reveal">
 		    <div class="slides">
 		        <section>
-					<h1>Git</h1>
-					<h3>Gestion de version rapide</h3>
+					<h2>Git</h2>
 					<p>
 						<small>Créé par <a href="mailto:sylvain.monteillet@gmail.com">Sylvain Monteillet</a></small>
 					</p>
 				</section>
 
 		        <section>
-		            <section>Historique</section>
-		            <section>Linus torvald</section>
+		        	<h2>Git ???</h2>
+		        	<img src="./img/linus-torvalds.jpg">
+		        	</br>
+		        	<blockquote>I'm an egotistical bastard, and I name all my projects after myself. First Linux, now git.</blockquote>
+		        </section>
+		        <section>
+		        	<h2>Git, c'est quoi ?</h2>
+		        	<ul>
+		        		<li>Repositories Distribués</li>
+		        		<li>Branches </li>
+		        		<li>Historiques sophistiqués</li>
+		        		<li>Gros et petits projets</li>
+		        	</ul>
+		        </section>
+
+		        <section>
+					<h2>Version de contrôle centralisée</h2>
+					<img src="./img/centralise.png"/>
+		        </section>
+
+		        <section>
+		        	<h2>Version de contrôle décentralisée</h2>
+		        	<img src="./img/decentralise.png"/>
+		        </section>
+
+		        <section>
+		        	<h2>On commence</h2>
+		        	<pre class="presentation-code" >
+			        	<code>
+$ git init </br>
+Initialized empty Git repository in c:/dev/git/demo/.git/
+						</code>
+					</pre>
+		        </section>
+
+		        <section>
+		        	<h2>Ou alors</h2>
+		        		<pre class="presentation-code" >
+			        	<code>
+$ git clone https://github.com/smonteillet/git-presentation.git
+						</code>
+					</pre>
+		        </section>
+
+		        <section>
+		        	<h2>Protocoles supportés:</h2>
+		        	</br>
+		        	<ul>
+		        		<li>HTTP/S</li>
+		        		<li>File</li>
+		        		<li>SSH</li>
+		        		<li>Git</li>
+		        	</ul>
+		        </section>
+
+		        <section>
+		        		<pre class="presentation-code" >
+			        	<code>
+$ echo "Hello World" > readme
+$ git add readme
+$ git commit -m "Ajout du fichier Readme"
+[master (root-commit) a3cd6b9] Ajout du fichier Readme
+						</code>
+					</pre>
+		        </section>
+
+		        <section>
+		        	<h2>Opérations locales</h2>
+		        	<img src="./img/local_operations.png" >
+		        </section>
+
+		        <section>
+
+		        </section>
+
+
+		        <section>
+
 		        </section>
 		        <!--<section>
 		            <section>Git un SCM décentralisé</section>
