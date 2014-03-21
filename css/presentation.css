@@ -7,3 +7,8 @@ h2 {
 	text-transform : none !important; 
 	padding-bottom: 20px !important;
 }
+
+.reveal section img {
+	border: none !important;
+	box-shadow: none !important;
+}
